@@ -1,0 +1,20 @@
+{
+  "rewrites": [
+    {
+      "source": "/admin",
+      "destination": "/admin.html"
+    },
+    {
+      "source": "/admin/",
+      "destination": "/admin.html"
+    },
+    {
+      "source": "/api/:path*",
+      "destination": "http://31.76.225.255:8001/api/:path*"
+    },
+    {
+      "source": "/health",
+      "destination": "http://31.76.225.255:8001/health"
+    }
+  ]
+}
