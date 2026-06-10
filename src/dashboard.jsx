@@ -10,8 +10,8 @@ const emptyForm = {
   risk_percent: 1,
 };
 
-/** Fixed product: gold (XAUUSD) + aggressive engine (display: ABX GOLD). */
-const TRADING_STRATEGY_LABEL = "ABX GOLD";
+/** Fixed product: gold (XAUUSD) + ABX Gold engine. */
+const TRADING_STRATEGY_LABEL = "ABX Gold";
 const TRADING_INSTRUMENT_LABEL = "XAUUSD (Gold)";
 
 /** Keep “Connecting” UI visible at least this long (API may return faster). */
